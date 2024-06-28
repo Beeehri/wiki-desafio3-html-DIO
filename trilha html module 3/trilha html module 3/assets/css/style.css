@@ -45,6 +45,24 @@ a {
     padding-right: 1rem;
 }
 
+.main table,
+th,
+td {
+    border: solid 1px gray;
+    border-collapse: collapse;
+    padding: 4px;
+    text-align: center;
+    margin-left: 15px
+}
+
+.main tr:hover {
+    background-color: rgb(233, 233, 233);
+}
+
+.main th {
+    background-color: lightgray;
+}
+
 .footer {
     min-height: 100px;
     border-top: solid 1px #cdcdcd;
